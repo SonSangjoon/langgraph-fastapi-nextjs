@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "langgraph-fastapi-nextjs"
+version = "0.1.0"
+description = "fastapi langgraph template"
+authors = ["onshore <onshorecoding9@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+fastapi = "^0.115.7"
+pydantic = "^2.10.5"
+openai = "^1.60.0"
+langgraph = "^0.2.66"
+langchain = "^0.3.15"
+uvicorn = "^0.34.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
